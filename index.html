@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <html lang="fr-FR">
   <head>
+    <!-- à mettre avant la mise en page du site -->
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style2.css" />
+
+    <!--Police-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nova+Mono&family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <!--Police-->
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
@@ -13,7 +30,7 @@
      - CTRL + : sur Windows
     -->
     <!-- Un texte d'environ 80 caractères -->
-    <title>Foundation, un empire menacer</title>
+    <title>Foundation,un empire menacer</title>
 
     <!-- Un texte d'environ 160 caractères -->
     <meta
@@ -37,12 +54,14 @@
     <!-- corps de la page -->
 
     <header>
-      <h1>New on AppleTV.<br />Foundation, un empire menacé.</h1>
+      <h1>New on AppleTV.<br />Foundation,un empire menacé.</h1>
       <nav>
         <ul>
-          <li><a href="#synopsis">Synopsis</a></li>
-          <li><a href="#acteur-principaux">acteur principaux</a></li>
-          <li><a href="#plus">Plus d'info</a></li>
+          <li class="lienF"><a href="#synopsis">Synopsis</a></li>
+          <li class="lien">
+            <a href="#acteur-principaux">acteur principaux</a>
+          </li>
+          <li class="lien"><a href="#plus">Plus d'info</a></li>
         </ul>
       </nav>
     </header>
@@ -104,18 +123,18 @@
       <section id="plus">
         <h2>Plus d'info</h2>
         <ul>
-          <li>Nombre de saisons</li>
+          <li class="categorie">Nombre de saisons</li>
           <p>
-            saisons 1 en cours <br />
+            saisons 1 en cours <br /><br />
             saisons 2 prévus pour 2022
           </p>
-          <li>Nombre episode saisons 1</li>
+          <li class="categorie">Nombre episode saisons 1</li>
           <p>
             3 episode le 24 septembre 2021 puis 1 tout les vendredi
             jusqu'au 19 novembre 2021 pour un total de 10 episode
             premiere saisons.
           </p>
-          <li>
+          <li class="lien">
             <a
               href="https://fr.wikipedia.org/wiki/Foundation_(s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e)#Diffusion"
               target="_blank"
@@ -125,6 +144,6 @@
         </ul>
       </section>
     </main>
-    <footer>© nadir</footer>
+    <footer>Tout droit réservé ©nadir</footer>
   </body>
 </html>

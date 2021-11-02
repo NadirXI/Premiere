@@ -1,0 +1,63 @@
+body {
+  background-color: black;
+  font-family: "Share Tech Mono", monospace;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  color: bisque;
+}
+
+h2 {
+  color: goldenrod;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  padding-right: 0px;
+}
+
+ul {
+  color: rgb(126, 42, 42);
+  margin-left: 5%;
+}
+
+.lienF {
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.lien {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.categorie {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+a {
+  color: rgb(177, 207, 65);
+  padding-top: 20px;
+}
+
+p {
+  color: antiquewhite;
+  margin-left: 5%;
+}
+
+/* Fin du reset de meyer */
+
+img {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+footer {
+  margin-top: 10px;
+  text-align: center;
+  color: aliceblue;
+}
